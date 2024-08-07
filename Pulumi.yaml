@@ -1,0 +1,7 @@
+name: pulumi-aws-eks
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: .venv
+description: An IaC for AWS EKS Cluster setup
